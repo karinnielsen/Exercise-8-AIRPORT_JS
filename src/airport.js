@@ -4,8 +4,11 @@ function Plane() {
 	this.destinationAirport = new Airport
 };
 
-function Airport() {};
+function Airport() {
+	this.name = "LHR"
+};
+						
 
-Plane.prototype.land = function(airport){
+Plane.prototype.land = function(airport) {
 	return airport
 };
