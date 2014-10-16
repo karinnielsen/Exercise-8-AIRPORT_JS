@@ -9,4 +9,12 @@ describe("Airport", function() {
 		expect(plane.land(airport)).toEqual(airport)
 	});
 
+
+	describe("Plane", function() {
+
+		it("should have a flight number", function(){
+			expect(plane.flightNumber).toEqual("")
+		});
+	});
+
 });

@@ -1,6 +1,8 @@
-function Plane() {}
+function Plane() {
+	this.flightNumber = ""
+};
 
-function Airport() {}
+function Airport() {};
 
 Plane.prototype.land = function(airport){
 	return airport
